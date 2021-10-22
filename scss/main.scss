@@ -21,8 +21,8 @@ html {
 .navbar-brand {
     font-size: 3rem;
     font-family: $tipografia-serif;
-    font-style: normal;
-    color: $color-principal !important;
+    font-style: bold !important;
+    color: $color-secundario !important;
     margin: 2px;
 }
 
@@ -30,7 +30,7 @@ html {
     font-size: 2rem;
     font-family: $tipografia-serif;
     font-style: normal;
-    color: $color-principal !important;
+    color: $color-secundario !important;
 }
 
 .carousel-caption h3 {
@@ -102,7 +102,10 @@ h3 {
 .footer-imagen {
     max-width: 10%;
     height: inherit;
+    border-radius: 10px;
 }
+
+
 
 .text-center {
     background-color: #608C54;
@@ -312,3 +315,22 @@ h3 {
   .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
     transform: scale3d(1, 1, 1);
   }
+
+  /* Operaciones SASS */
+
+  @each $imagen in facebook, instagram, whatsapp {
+    .#{$imagen}-icon { 
+          Background-image:  
+           url('/images/#{$imagen}.png');
+     }
+ } 
+ 
+ $tamaño: (chico: 10%, mediano: 30%, grande: 50%);
+
+ @each $tam, $px in $tamaño {
+    .btn--#{$tam} {
+        width: $px;
+        height: $px;
+    }
+ }
+ 

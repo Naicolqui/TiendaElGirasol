@@ -3,7 +3,7 @@ html {
   font-size: 62.5%; }
 
 .header {
-  background-color: #F2D6A2;
+  background-color: #FADFD1;
   height: 100%;
   background-size: cover; }
 
@@ -16,15 +16,15 @@ html {
 .navbar-brand {
   font-size: 3rem;
   font-family: "Scheherazade New", serif;
-  font-style: normal;
-  color: #7A9165 !important;
+  font-style: bold !important;
+  color: white !important;
   margin: 2px; }
 
 .nav-link {
   font-size: 2rem;
   font-family: "Scheherazade New", serif;
   font-style: normal;
-  color: #7A9165 !important; }
+  color: white !important; }
 
 .carousel-caption h3 {
   font-size: 3rem !important;
@@ -87,7 +87,8 @@ h3 {
 
 .footer-imagen {
   max-width: 10%;
-  height: inherit; }
+  height: inherit;
+  border-radius: 10px; }
 
 .text-center {
   background-color: #608C54;
@@ -264,3 +265,25 @@ h3 {
 
 .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
   transform: scale3d(1, 1, 1); }
+
+/* Operaciones SASS */
+.facebook-icon {
+  Background-image: url("/images/facebook.png"); }
+
+.instagram-icon {
+  Background-image: url("/images/instagram.png"); }
+
+.whatsapp-icon {
+  Background-image: url("/images/whatsapp.png"); }
+
+.btn--chico {
+  width: 10%;
+  height: 10%; }
+
+.btn--mediano {
+  width: 30%;
+  height: 30%; }
+
+.btn--grande {
+  width: 50%;
+  height: 50%; }
