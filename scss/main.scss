@@ -1,10 +1,7 @@
 @import "variables";
 
+/*header*/
 
-html { 
-    font-size: 62.5%;
- }
- 
  .header {
     background-color: $color-terciario;
     height: 100%;
@@ -46,6 +43,26 @@ html {
     height: 100%;
   }
 
+  /* productos */
+  .container-producto{
+    a {
+        margin-bottom: 10%!important;
+    }
+
+    h5 {
+        color: $color-principal !important;
+    }
+    img {
+        margin: 4% !important;
+        border-radius: 10px!important;
+    }
+  }
+  /* tipografias*/
+  
+html { 
+    font-size: 62.5%;
+ }
+
 h2 {
     margin: 3px !important;
     padding: 5px !important;
@@ -62,6 +79,14 @@ h3 {
     font-size: 3rem;
 }
 
+.parrafos {
+    font-size: 1.5rem;
+    color: gray !important;
+    text-align: center;
+    font-family: $tipografia-sans-serif !important;
+}
+
+/* cards */
 .card-title {
     font-size: 2rem !important;
     font-family: $tipografia-serif !important;
@@ -73,6 +98,8 @@ h3 {
     font-family: $tipografia-sans-serif !important;
     text-align: center;
 }
+
+/* botones */
 
 .btn-info,
 .btn-info:hover,
@@ -99,28 +126,37 @@ h3 {
   font-family: $tipografia-serif !important;
 }
 
-.footer-imagen {
-    max-width: 10%;
-    height: inherit;
-    border-radius: 10px;
-}
-
-
-
-.text-center {
-    background-color: #608C54;
-    margin-top: 10px !important;
-    padding-top: 10px !important;
-}
-
-
+/*boton index principal*/
 .boton-mas-productos {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-content: center; 
     margin: 5%;
 }
+/* footer */
 
+.footer{
+    background-color: $color-principal !important;
+    padding: 1%;
+
+ img {
+    max-width: 10%;
+    height: inherit;
+    border-radius: 10px;
+    margin: 4% !important;
+}
+ a {
+     margin-left: 50%;
+     margin-right: 50%;
+ }
+
+ h5 {
+     font-size: 3rem !important;
+     color: $color-secundario !important;
+     text-align: center !important;
+ }
+}
+/*body*/
 .imagenes-explicativas{
     display: flex;
     flex-direction: row;
@@ -146,6 +182,7 @@ h3 {
     margin-left: 1% !important; 
     margin-right: 1% !important;
 }
+
 /* Css sub páginas */
 
 .navbar-subpaginas{
@@ -229,6 +266,7 @@ h3 {
     margin-right: 20%;
 }
 
+/* formulario */
 
 .form-group {
     font-family: $tipografia-serif !important;
@@ -270,29 +308,32 @@ h3 {
 
 /*Animaciones*/
 
-  .card{
+  .card {
     transition:0.5s;
     cursor:pointer;
   }
-  .card-title{  
+
+  .card-title {  
     transition:1s;
     cursor:pointer;
     text-align: center;
   }
-  .card-title i{  
+
+  .card-title i {  
     transition:1s;
     cursor:pointer;
-    color:#ffa710
   }
-  .card-title i:hover{
-    transform: scale(1.25) rotate(100deg); 
-    color:#18d4ca;
+
+  .card-title i:hover {
+    transform: scale(1.25) rotate(100deg);
     
   }
-  .card:hover{
+
+  .card:hover {
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
   }
+
 .card::before, .card::after {
     position: absolute;
     top: 0;
