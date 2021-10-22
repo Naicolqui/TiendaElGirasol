@@ -1,0 +1,23 @@
+{
+  "name": "nuevo-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naicolqui/TiendaElGirasol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naicolqui/TiendaElGirasol/issues"
+  },
+  "homepage": "https://github.com/Naicolqui/TiendaElGirasol#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.14"
+  }
+}

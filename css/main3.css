@@ -3,13 +3,13 @@ html {
  }
  
  .header {
-    background: url(../Imágenes/bannerHoja_Mesa\ de\ trabajo\ 1.png) no-repeat center;
+    background-color: #608C54 !important;
     height: 100%;
     background-size: cover;
   }
 
 .header .navbar-1 {
-    background-color: transparent !important;
+    background-color: #608C54 !important;
 }
 
 .img-thumbnail {
@@ -59,6 +59,10 @@ h3 {
     font-size: 3rem;
 }
 
+.card {
+    padding-bottom: 3% !important;
+}
+
 .card-title {
     font-size: 2rem !important;
     font-family: 'Scheherazade New', serif !important;
@@ -69,6 +73,10 @@ h3 {
     font-size: 1rem !important;
     font-family: 'Poppins', sans-serif !important;
     text-align: center;
+}
+
+.boton-producto {
+    margin-bottom: 2% !important;
 }
 
 .btn-info,
@@ -82,6 +90,7 @@ h3 {
   box-shadow: 1px 2px 3px #858585;
   font-size: 1.5rem;
   font-family: 'Scheherazade New', serif !important;
+  margin-bottom: 2% !important;
 }
 
 .btn-primary,
