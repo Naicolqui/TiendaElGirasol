@@ -326,11 +326,18 @@ h3 {
   width: 50%;
   height: 50%; }
 
-/* media queries*/
-@media (max-width: 450px) {
-  .container-producto {
-    display: flex;
-    align-items: center; }
-    .container-producto img {
-      width: 200px !important;
-      height: auto !important; } }
+/* @media
+
+ @media (max-width: 450px) {
+     .container-producto {
+         display: flex;
+         align-items: center;
+         img {
+             width: 200px !important;
+             height: auto !important;
+         }
+     }
+
+     
+ }
+ */
