@@ -157,20 +157,28 @@ h3 {
  }
 }
 /*body*/
+
 .imagenes-explicativas{
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    img {
+         width: 20% !important;
+    }
 }
 
-.imagenes-explicativas img {
-    width: 20% !important;
-}
 
-.container-info p {
-    text-align: center !important;
-    font-size: 2rem !important;
-    color: gray;
+.container-info {
+    .container-individual {
+        margin: 2% !important;
+    }
+
+    p {
+       text-align: center !important;
+       font-size: 2rem !important;
+       color: gray;
+    }
 }
 
 .img-info {
@@ -184,6 +192,7 @@ h3 {
 }
 
 /* Css sub páginas */
+
 
 .navbar-subpaginas{
     background-color: #608C54 !important;
@@ -304,6 +313,8 @@ h3 {
     color: gray !important;
     text-align: center;
     font-family: $tipografia-sans-serif !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
 }
 
 /*Animaciones*/

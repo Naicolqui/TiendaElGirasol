@@ -135,9 +135,11 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center; }
+  .imagenes-explicativas img {
+    width: 20% !important; }
 
-.imagenes-explicativas img {
-  width: 20% !important; }
+.container-info .container-individual {
+  margin: 2% !important; }
 
 .container-info p {
   text-align: center !important;
@@ -251,7 +253,9 @@ h3 {
   font-size: 1.5rem;
   color: gray !important;
   text-align: center;
-  font-family: "Poppins", sans-serif !important; }
+  font-family: "Poppins", sans-serif !important;
+  margin-left: 3% !important;
+  margin-right: 3% !important; }
 
 /*Animaciones*/
 .card {
