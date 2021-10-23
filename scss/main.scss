@@ -53,7 +53,7 @@
         color: $color-principal !important;
     }
     img {
-        margin: 4% !important;
+        margin: 5% !important;
         border-radius: 10px!important;
     }
   }
@@ -390,5 +390,18 @@ h3 {
         width: $px;
         height: $px;
     }
+ }
+
+ /* media queries*/
+
+ @media (max-width: 450px) {
+     .container-producto {
+         display: flex;
+         align-items: center;
+         img {
+             width: 200px !important;
+             height: auto !important;
+         }
+     }
  }
  

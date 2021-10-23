@@ -44,7 +44,7 @@
   color: #7A9165 !important; }
 
 .container-producto img {
-  margin: 4% !important;
+  margin: 5% !important;
   border-radius: 10px !important; }
 
 /* tipografias*/
@@ -325,3 +325,12 @@ h3 {
 .btn--grande {
   width: 50%;
   height: 50%; }
+
+/* media queries*/
+@media (max-width: 450px) {
+  .container-producto {
+    display: flex;
+    align-items: center; }
+    .container-producto img {
+      width: 200px !important;
+      height: auto !important; } }
