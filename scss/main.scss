@@ -3,45 +3,60 @@
 /*header*/
 
  .header {
-    background-color: $color-terciario;
+    background-color: $color-principal;
     height: 100%;
     background-size: cover;
-  }
 
-.header .navbar-1 {
-    background-color: transparent !important;
-}
-
-.img-thumbnail {
-    width: 4%;
-}
-.navbar-brand {
+    .navbar-color {
+    background-color: transparent;
+    }
+    .titulo-menu {
     font-size: 3rem;
     font-family: $tipografia-serif;
-    font-style: bold !important;
-    color: $color-secundario !important;
+    color: $color-secundario;
     margin: 2px;
 }
-
-.nav-link {
-    font-size: 2rem;
-    font-family: $tipografia-serif;
-    font-style: normal;
-    color: $color-secundario !important;
-}
-
-.carousel-caption h3 {
-    font-size: 3rem !important;
-    font-family: $tipografia-serif !important;
-}
-.carousel-caption p {
-    font-size: 1rem !important;
-    font-family: $tipografia-sans-serif !important;
-}
-.carousel-inner img {
-    width: 100% !important;
-    height: 100%;
   }
+
+.imagen-navbar {
+    width: 4%;
+}
+
+
+.lista-menu {
+    ul {
+        .texto-nav {
+                font-size: 2rem;
+                font-family: $tipografia-serif;
+                font-style: normal;
+                color: $color-secundario;
+        }
+    }
+}
+
+.categorias-producto {
+    font-size: 2rem;
+    color: $color-principal;
+}
+
+.texto-carousel {
+    h3 {
+    font-size: 4rem;
+    font-family: $tipografia-serif;
+    color: $color-secundario !important;
+    }
+    p {
+    font-size: 1.5rem;
+    font-family: $tipografia-sans-serif;
+    }
+}
+
+
+.container-carousel 
+    img {
+      width: 100%;
+      height: 100%;
+    }
 
   /* productos */
   .container-producto{
@@ -270,15 +285,6 @@ h3 {
 
 .categorias {
     margin-top: 3% !important;
-}
-
-.container-segunda-fila {
-    display: grid;
-    justify-content: space-around;
-    grid-template-columns: repeat(2, 1fr);
-    align-content: center;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 /* formulario */
