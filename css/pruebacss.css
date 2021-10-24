@@ -271,10 +271,9 @@ h3 {
   transition: 1s;
   cursor: pointer;
   text-align: center; }
-
-.card-title i {
-  transition: 1s;
-  cursor: pointer; }
+  .card-title i {
+    transition: 1s;
+    cursor: pointer; }
 
 .card-title i:hover {
   transform: scale(1.25) rotate(100deg); }
@@ -326,18 +325,14 @@ h3 {
   width: 50%;
   height: 50%; }
 
-/* @media
-
- @media (max-width: 450px) {
-     .container-producto {
-         display: flex;
-         align-items: center;
-         img {
-             width: 200px !important;
-             height: auto !important;
-         }
-     }
-
-     
- }
- */
+/* @media */
+@media (max-width: 450px) {
+  .container-producto {
+    display: flex;
+    align-items: center; }
+    .container-producto img {
+      width: 200px !important;
+      height: auto !important; }
+  .container-fila-categorias .container-categorias {
+    width: 200px !important;
+    height: auto !important; } }

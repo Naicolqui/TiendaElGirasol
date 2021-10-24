@@ -303,17 +303,17 @@ h3 {
     align-content: center !important;
 }
 
-.fondo-pantalla h2{
+.fondo-pantalla { 
+    h2{
     margin-top: 6% !important;
-}
-
-.fondo-pantalla h3 {
+    }
+    h3 {
     font-size: 1.5rem;
     color: gray !important;
     text-align: center;
     font-family: $tipografia-sans-serif !important;
+    }
 }
-
 .parrafos {
     font-size: 1.5rem;
     color: gray !important;
@@ -334,11 +334,10 @@ h3 {
     transition:1s;
     cursor:pointer;
     text-align: center;
-  }
-
-  .card-title i {  
-    transition:1s;
-    cursor:pointer;
+    i {  
+        transition:1s;
+        cursor:pointer;
+      }
   }
 
   .card-title i:hover {
@@ -392,7 +391,7 @@ h3 {
     }
  }
 
- /* @media
+ /* @media */
 
  @media (max-width: 450px) {
      .container-producto {
@@ -404,6 +403,11 @@ h3 {
          }
      }
 
+     .container-fila-categorias{
+         .container-categorias {
+            width: 200px !important;
+            height: auto !important;
+         }
+     }
      
  }
- */
