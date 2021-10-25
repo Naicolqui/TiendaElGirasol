@@ -160,16 +160,16 @@ h3 {
 
 .footer{
     background-color: $color-principal;
-    padding: 1%;
-    width: 100%;
+
   .container-footer {
         .img-footer {
             display: flex;
-          a {
-            justify-self: center;
-            margin-left: 50%;
-            margin-right: 50%;
-          .footer-imagen {
+            justify-content: center;
+            align-items: center;
+          .link{ 
+            display: flex;
+            justify-content: center;
+          img {
             width: 30%;
             height: auto;
             border-radius: 10px;
@@ -177,12 +177,12 @@ h3 {
           }  
           }
         }   
-
        h5 {
             font-size: 3rem;
             color: $color-secundario;
             text-align: center;
         }
+      
     }
 }
 
@@ -371,15 +371,6 @@ h3 {
     transform: scale3d(1, 1, 1);
   }
 
-  /* Operaciones SASS */
- $tamaño: (chico: 10%, mediano: 30%, grande: 50%);
-
- @each $tam, $px in $tamaño {
-    .btn--#{$tam} {
-        width: $px;
-        height: $px;
-    }
- }
 
  /* @media */
 
@@ -409,5 +400,9 @@ h3 {
                 }
             }
         }
-    } 
+    }
+    
+    .carousel-div {
+        display: none;
+    }
  }

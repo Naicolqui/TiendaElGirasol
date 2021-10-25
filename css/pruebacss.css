@@ -123,16 +123,15 @@ h3 {
 
 /* footer */
 .footer {
-  background-color: #7A9165;
-  padding: 1%;
-  width: 100%; }
+  background-color: #7A9165; }
   .footer .container-footer .img-footer {
-    display: flex; }
-    .footer .container-footer .img-footer a {
-      justify-self: center;
-      margin-left: 50%;
-      margin-right: 50%; }
-      .footer .container-footer .img-footer a .footer-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer .container-footer .img-footer .link {
+      display: flex;
+      justify-content: center; }
+      .footer .container-footer .img-footer .link img {
         width: 30%;
         height: auto;
         border-radius: 10px;
@@ -290,19 +289,6 @@ h3 {
 .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
   transform: scale3d(1, 1, 1); }
 
-/* Operaciones SASS */
-.btn--chico {
-  width: 10%;
-  height: 10%; }
-
-.btn--mediano {
-  width: 30%;
-  height: 30%; }
-
-.btn--grande {
-  width: 50%;
-  height: 50%; }
-
 /* @media */
 @media (max-width: 450px) {
   .container-producto {
@@ -316,4 +302,6 @@ h3 {
     height: auto; }
   .container-footer .filas-footer .img-footer a {
     width: 100px;
-    height: auto; } }
+    height: auto; }
+  .carousel-div {
+    display: none; } }
