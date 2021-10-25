@@ -162,6 +162,10 @@ h3 {
     background-color: $color-principal;
 
   .container-footer {
+      .filas-footer{
+          display: flex;
+          justify-content: center;
+    
         .img-footer {
             display: flex;
             justify-content: center;
@@ -176,7 +180,8 @@ h3 {
             margin: 4%;  
           }  
           }
-        }   
+        }
+      }   
        h5 {
             font-size: 3rem;
             color: $color-secundario;
@@ -194,6 +199,7 @@ h3 {
     justify-content: center;
     margin: 3%;
     img {
+        justify-self: center;
          width: 20%;
     }
     .container-info {
