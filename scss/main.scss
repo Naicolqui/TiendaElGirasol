@@ -225,18 +225,16 @@ h3 {
 }
 
 /* Css sub páginas */
-.container-categorias {
+
+.container-productos {
+  .container-categorias {
     margin: 5%;
+    img {
+        border-radius: 20px;
+        width: 100%;
+    }
+    
 }
-
-.container-categorias img {
-    border-radius: 20px;
-    width: 100% !important;
-}
-
-.card-container {
-    -webkit-perspective: 1000;
-    perspective: 1000;
 }
 
 .profile-card-2 {
@@ -405,4 +403,6 @@ h3 {
     .carousel-div {
         display: none;
     }
+
+
  }
