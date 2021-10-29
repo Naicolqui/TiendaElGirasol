@@ -213,6 +213,10 @@ h3 {
 .categorias {
   margin-top: 3%; }
 
+.container-fila-categorias {
+  display: flex;
+  justify-content: center; }
+
 /* formulario */
 .form-group {
   font-family: "Scheherazade New", serif !important;
