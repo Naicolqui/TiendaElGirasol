@@ -251,6 +251,25 @@ h3 {
   margin-left: 3% !important;
   margin-right: 3% !important; }
 
+.container-redes-sociales {
+  display: flex;
+  justify-content: center; }
+  .container-redes-sociales .row {
+    display: flex;
+    justify-content: center; }
+    .container-redes-sociales .row img {
+      justify-self: center; }
+
+.container-banner {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: center; }
+
+.banner {
+  width: 90%;
+  height: auto; }
+
 /*Animaciones*/
 .card {
   transition: 0.5s;
@@ -306,5 +325,7 @@ h3 {
   .container-footer .filas-footer .img-footer a {
     width: 100px;
     height: auto; }
+    .container-footer .filas-footer .img-footer a img {
+      width: 50px; }
   .carousel-div {
     display: none; } }

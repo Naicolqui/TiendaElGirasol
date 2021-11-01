@@ -329,7 +329,29 @@ h3 {
     margin-left: 3% !important;
     margin-right: 3% !important;
 }
+.container-redes-sociales {
+    display: flex;
+    justify-content: center;
 
+    .row {
+        display: flex;
+        justify-content: center;
+
+        img {
+            justify-self: center;
+        }
+    }
+}
+.container-banner {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: center;
+}
+.banner {
+    width: 90%;
+    height: auto;
+}
 /*Animaciones*/
 
 .card {
@@ -406,6 +428,9 @@ h3 {
                 a {
                     width: 100px;
                     height: auto;
+                    img {
+                        width: 50px;
+                    }
                 }
             }
         }
